@@ -7,11 +7,85 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Importar la hojas de estilos de materialize css-->
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <title>Mi primer página con Materialize CSS</title>
+        <link href="css/personalizado.css" type="text/css" rel="stylesheet">
+        <title>Viajar es Felicidad</title>
     </head>
     <body>
-     
-     
+        <div class="row">
+            <nav class="transparent z-depth-0">
+                <div class="nav-wrapper transparent">
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left blanco">home</i>Inicio</a></li>
+                    <li><a href="#"><i class="material-icons left blanco">location_on</i>Estuve en...</a></li>
+                    <li><a href="#"><i class="material-icons left blanco">star</i>Mejores viajes</a></li>
+                    <li><a href="#"><i class="material-icons left blanco">message</i>Recomendaciones</a></li>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a href="#"><i class="material-icons left">location_on</i>Estuve en...</a></li>
+                    <li><a href="#"><i class="material-icons left">star</i>Mejores viajes</a></li>
+                    <li><a href="#"><i class="material-icons left">message</i>Recomendaciones</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+           <div class="col l12">
+            <div class="row">
+                <div class="s1 m1 l1 col fila-logo"></div>
+                
+                <div class="s1 m11 l2 col fila-logo">
+                  <div class="card transparent">
+                    <div class="card-image transparent">
+                      <img class="responsive-img" src="img/logo.png">
+                      </div>     
+                  </div>
+                </div>
+                <div class="s1 m11 l9 col fila-logo">
+                  <div class="card transparent  z-depth-0">
+                    <div class="card-content left-align white-text">
+                      <h5>Viajar es Felicidad</h5>
+                    </div>     
+                  </div>
+                </div>
+           </div>    
+           <div class="col l12">
+            <div class="row">
+                <div class="m1 l1 col blue-grey lighten-5 columna-iconos_sociales hide-on-med-and-down">
+                    <span>A</span>
+                </div>
+                <div class="s12 m4 l4 col white columna-Fotos">
+                    <h5>Fotos1</h5>
+                </div>
+                <div class="s12 m4 l4 col red columna-Fotos">
+                    <h5>Fotos2</h5>
+                </div>
+                <div class="s12 m3 l3 col blue columna-Fotos">
+                    <h5>Fotos3</h5>
+                </div>
+              </div>
+           </div>
+        </div>    
+        
+        
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        
+        <!--Este scrip estaba en el sitio de materialize y me pareció una buena idea colocar el código para móbiles-->
+        
+        <script>
+             $( document ).ready(function(){
+             $(".button-collapse").sideNav({
+                  menuWidth: 250, 
+                  edge: 'right', 
+                  closeOnClick: true, 
+                  draggable: true // Choose whether you can drag to open on touch screens
+                });
+            })
+        </script>
+         
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>

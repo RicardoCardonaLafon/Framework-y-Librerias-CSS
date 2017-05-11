@@ -1,0 +1,36 @@
+body{
+    background-image:url(../img/Fondo.jpg);
+    /*background-repeat: no-repeat;*/
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    
+}
+/*#contenedor_vertical{
+  background-color: blueviolet;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.5;
+}*/
+#contenedor_vertical{
+    width: 100%;
+    
+}
+.material-icons.blanco { 
+    color: white; 
+}
+.nav{
+   border-bottom: 0;
+}
+#logo{
+    border-radius: 10px;
+}
+div[class*="columna"]{
+  height: 50rem;
+   
+}
+div[class*="fila"]{
+  height: 10rem;
+}
