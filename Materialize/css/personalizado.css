@@ -7,16 +7,25 @@ body{
     background-color: #464646;
     
 }
-/*#contenedor_vertical{
-  background-color: blueviolet;
-  height: 150px;
-  width: 100%;
-  position: fixed;
-  opacity: 0.5;
-}*/
+p{
+    font-size: 1em;
+}
+.input-field label {
+     color: #000;
+}
+#autor{
+    font-size: 0.7em;
+}
+#img_logo{
+    max-width:150px;
+    max-height:100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 #contenedor_vertical{
     width: 100%;
-    
 }
 .material-icons.blanco { 
     color: white; 
@@ -28,9 +37,22 @@ body{
     border-radius: 10px;
 }
 div[class*="columna"]{
-  height: 50rem;
+  min-height:400px;
    
 }
 div[class*="fila"]{
-  height: 10rem;
+  min-height: 10rem;
+}
+.barra_inconos_sociales{
+    border-style: none;
+    background-color: transparent;
+}
+#items_iconos_sociales{
+    border-color: transparent;
+    background-color: transparent;
+    color:white;
+}
+#items_iconos_sociales.img{
+    background-color: transparent;
+    color:white;
 }
