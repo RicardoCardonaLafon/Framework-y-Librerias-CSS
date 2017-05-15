@@ -13,6 +13,6 @@ body{
 }
 @media (min-width: 1024px) { 
     #foto-galeria{
-        max-height: 50px;
+    max-height: 50%;
     }
 }
