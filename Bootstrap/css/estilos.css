@@ -1,0 +1,19 @@
+.contenedor-div{
+    	position:relative;
+        height: 100px;
+}      
+.mi-toolbar-social-abajo-derecha{
+    position:absolute;
+    bottom:5px;
+    right:10px;
+}
+.mi-navbar{
+    background-color: #3A2D89;
+ 
+    width: 100%;
+
+}
+li{
+    margin-right:40px;
+    margin-left:45px;
+}
